@@ -15,7 +15,7 @@ end
 
 def get_japanese_emoticon(file_path, emoticons)
   library = load_library(file_path)
-  emoticons = library
+  emoticons = library.keys.find 
 end
 
 def get_english_meaning
